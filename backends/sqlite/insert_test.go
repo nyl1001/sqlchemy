@@ -17,8 +17,8 @@ package sqlite
 import (
 	"testing"
 
+	"github.com/nyl1001/sqlchemy"
 	"yunion.io/x/pkg/errors"
-	"yunion.io/x/sqlchemy"
 )
 
 func insertSqlPrep(v interface{}, update bool) (string, []interface{}, error) {

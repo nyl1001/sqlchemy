@@ -21,7 +21,7 @@ import (
 
 	_ "github.com/mattn/go-sqlite3"
 
-	"yunion.io/x/sqlchemy"
+	"github.com/nyl1001/sqlchemy"
 )
 
 func TestSync(t *testing.T) {

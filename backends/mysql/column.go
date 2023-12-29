@@ -29,7 +29,7 @@ import (
 	"yunion.io/x/pkg/util/timeutils"
 	"yunion.io/x/pkg/utils"
 
-	"yunion.io/x/sqlchemy"
+	"github.com/nyl1001/sqlchemy"
 )
 
 func columnDefinitionBuffer(c sqlchemy.IColumnSpec) bytes.Buffer {
@@ -60,11 +60,15 @@ func columnDefinitionBuffer(c sqlchemy.IColumnSpec) bytes.Buffer {
 		}
 		def = sqlchemy.GetStringValue(c.ConvertFromString(def))
 		buf.WriteString(" DEFAULT ")
+		isContainsDefaultTimeKey := false
 		if c.IsText() {
+			isContainsDefaultTimeKey = strings.Contains(strings.ToUpper(def), "CURRENT_TIMESTAMP")
+		}
+		if c.IsText() && !isContainsDefaultTimeKey {
 			buf.WriteByte('\'')
 		}
 		buf.WriteString(def)
-		if c.IsText() {
+		if c.IsText() && !isContainsDefaultTimeKey {
 			buf.WriteByte('\'')
 		}
 	}

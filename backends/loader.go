@@ -15,7 +15,7 @@
 package backends
 
 import (
-	_ "yunion.io/x/sqlchemy/backends/clickhouse"
-	_ "yunion.io/x/sqlchemy/backends/mysql"
-	_ "yunion.io/x/sqlchemy/backends/sqlite"
+	_ "github.com/nyl1001/sqlchemy/backends/clickhouse"
+	_ "github.com/nyl1001/sqlchemy/backends/mysql"
+	_ "github.com/nyl1001/sqlchemy/backends/sqlite"
 )

@@ -17,7 +17,7 @@ package clickhouse
 import (
 	"fmt"
 
-	"yunion.io/x/sqlchemy"
+	"github.com/nyl1001/sqlchemy"
 )
 
 // GROUP_CONCAT1 represents the SQL function GROUP_CONCAT

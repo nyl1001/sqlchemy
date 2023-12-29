@@ -9,7 +9,7 @@ jobs:
         environment:
           ONECLOUD_CI_BUILD: "1"
 
-    working_directory: /go/src/yunion.io/x/sqlchemy
+    working_directory: /go/src/github.com/nyl1001/sqlchemy
     steps:
       - checkout
       - run:

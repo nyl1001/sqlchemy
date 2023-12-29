@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/nyl1001/sqlchemy"
 	"yunion.io/x/log"
-	"yunion.io/x/sqlchemy"
 )
 
 func (sqlite *SSqliteBackend) CommitTableChangeSQL(ts sqlchemy.ITableSpec, changes sqlchemy.STableChanges) []string {

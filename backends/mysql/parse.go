@@ -17,7 +17,7 @@ package mysql
 import (
 	"regexp"
 
-	"yunion.io/x/sqlchemy"
+	"github.com/nyl1001/sqlchemy"
 )
 
 const (

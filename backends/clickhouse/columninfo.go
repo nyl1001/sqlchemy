@@ -21,7 +21,7 @@ import (
 
 	"yunion.io/x/log"
 
-	"yunion.io/x/sqlchemy"
+	"github.com/nyl1001/sqlchemy"
 )
 
 // name type default_type default_expression comment codec_expression ttl_expression

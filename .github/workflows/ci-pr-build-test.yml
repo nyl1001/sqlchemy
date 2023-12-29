@@ -37,7 +37,7 @@ jobs:
     #     echo $GITHUB_WORKSPACE
     #     mkdir -p $(dirname $GITHUB_WORKSPACE)/go/src/yunion.io/x
     #     cp -r $GITHUB_WORKSPACE $(dirname $GITHUB_WORKSPACE)/go/src/yunion.io/x/
-    #     cd $(dirname $GITHUB_WORKSPACE)/go/src/yunion.io/x/sqlchemy
+    #     cd $(dirname $GITHUB_WORKSPACE)/go/src/github.com/nyl1001/sqlchemy
     #     GOPATH=$(dirname $GITHUB_WORKSPACE)/go GO111MODULE=off go get
     #     GOPATH=$(dirname $GITHUB_WORKSPACE)/go GO111MODULE=off go test -race -coverprofile=coverage.out -covermode=atomic
     #     dir

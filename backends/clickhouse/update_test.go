@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"yunion.io/x/sqlchemy"
+	"github.com/nyl1001/sqlchemy"
 )
 
 const (

@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"yunion.io/x/sqlchemy"
+	"github.com/nyl1001/sqlchemy"
 )
 
 func TestSync(t *testing.T) {

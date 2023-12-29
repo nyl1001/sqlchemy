@@ -28,7 +28,7 @@ import (
 	"yunion.io/x/pkg/util/timeutils"
 	"yunion.io/x/pkg/utils"
 
-	"yunion.io/x/sqlchemy"
+	"github.com/nyl1001/sqlchemy"
 )
 
 func columnDefinitionBuffer(c sqlchemy.IColumnSpec) bytes.Buffer {

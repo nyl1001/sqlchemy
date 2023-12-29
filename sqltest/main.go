@@ -28,8 +28,8 @@ import (
 	"yunion.io/x/pkg/gotypes"
 	"yunion.io/x/pkg/util/timeutils"
 
-	"yunion.io/x/sqlchemy"
-	_ "yunion.io/x/sqlchemy/backends"
+	"github.com/nyl1001/sqlchemy"
+	_ "github.com/nyl1001/sqlchemy/backends"
 )
 
 func uuid4() string {

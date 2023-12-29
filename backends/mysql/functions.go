@@ -17,7 +17,7 @@ package mysql
 import (
 	"fmt"
 
-	"yunion.io/x/sqlchemy"
+	"github.com/nyl1001/sqlchemy"
 )
 
 // GROUP_CONCAT2 represents the SQL function GROUP_CONCAT

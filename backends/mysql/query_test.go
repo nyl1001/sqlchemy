@@ -17,8 +17,8 @@ package mysql
 import (
 	"testing"
 
-	"yunion.io/x/sqlchemy"
-	"yunion.io/x/sqlchemy/backends/tests"
+	"github.com/nyl1001/sqlchemy"
+	"github.com/nyl1001/sqlchemy/backends/tests"
 )
 
 var (

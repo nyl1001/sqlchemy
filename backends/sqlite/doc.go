@@ -12,4 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package sqlite // import "yunion.io/x/sqlchemy/backends/sqlite"
+package sqlite // import "github.com/nyl1001/sqlchemy/backends/sqlite"

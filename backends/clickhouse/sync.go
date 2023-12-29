@@ -20,12 +20,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/nyl1001/sqlchemy"
 	"yunion.io/x/jsonutils"
 	"yunion.io/x/log"
 	"yunion.io/x/pkg/sortedstring"
 	"yunion.io/x/pkg/util/stringutils"
 	"yunion.io/x/pkg/utils"
-	"yunion.io/x/sqlchemy"
 )
 
 func findTtlColumn(cols []sqlchemy.IColumnSpec) sColumnTTL {

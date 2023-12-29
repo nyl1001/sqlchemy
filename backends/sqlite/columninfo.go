@@ -17,7 +17,7 @@ package sqlite
 import (
 	"yunion.io/x/log"
 
-	"yunion.io/x/sqlchemy"
+	"github.com/nyl1001/sqlchemy"
 )
 
 type sSqlColumnInfo struct {

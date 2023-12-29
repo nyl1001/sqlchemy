@@ -12,4 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package backends // import "yunion.io/x/sqlchemy/backends"
+package backends // import "github.com/nyl1001/sqlchemy/backends"

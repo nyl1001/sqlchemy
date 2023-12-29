@@ -3,7 +3,7 @@ package tests
 import (
 	"testing"
 
-	"yunion.io/x/sqlchemy"
+	"github.com/nyl1001/sqlchemy"
 )
 
 type testQueryTable struct {
