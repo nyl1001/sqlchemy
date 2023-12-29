@@ -17,10 +17,10 @@ package sqlchemy
 import (
 	"reflect"
 
+	"github.com/nyl1001/pkg/errors"
+	"github.com/nyl1001/pkg/gotypes"
+	"github.com/nyl1001/pkg/util/reflectutils"
 	"yunion.io/x/log"
-	"yunion.io/x/pkg/errors"
-	"yunion.io/x/pkg/gotypes"
-	"yunion.io/x/pkg/util/reflectutils"
 )
 
 // Fetch method fetches the values of a struct whose primary key values have been set

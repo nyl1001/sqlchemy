@@ -17,7 +17,7 @@ package sqlchemy
 import (
 	"testing"
 
-	"yunion.io/x/pkg/util/timeutils"
+	"github.com/nyl1001/pkg/util/timeutils"
 )
 
 func TestSqlDebug(t *testing.T) {

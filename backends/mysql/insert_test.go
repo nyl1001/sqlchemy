@@ -17,8 +17,8 @@ package mysql
 import (
 	"testing"
 
+	"github.com/nyl1001/pkg/errors"
 	"github.com/nyl1001/sqlchemy"
-	"yunion.io/x/pkg/errors"
 )
 
 func insertSqlPrep(v interface{}, update bool) (string, []interface{}, error) {

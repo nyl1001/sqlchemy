@@ -17,7 +17,7 @@ package sqlite
 import (
 	"regexp"
 
-	"yunion.io/x/pkg/errors"
+	"github.com/nyl1001/pkg/errors"
 
 	"github.com/nyl1001/sqlchemy"
 )

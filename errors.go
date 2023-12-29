@@ -15,7 +15,7 @@
 package sqlchemy
 
 import (
-	"yunion.io/x/pkg/errors"
+	"github.com/nyl1001/pkg/errors"
 )
 
 const (

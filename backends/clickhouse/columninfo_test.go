@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"yunion.io/x/pkg/sortedstring"
+	"github.com/nyl1001/pkg/sortedstring"
 )
 
 func TestParseCreateTable(t *testing.T) {

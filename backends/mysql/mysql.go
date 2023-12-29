@@ -22,9 +22,9 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	"yunion.io/x/pkg/gotypes"
-	"yunion.io/x/pkg/tristate"
-	"yunion.io/x/pkg/util/regutils"
+	"github.com/nyl1001/pkg/gotypes"
+	"github.com/nyl1001/pkg/tristate"
+	"github.com/nyl1001/pkg/util/regutils"
 
 	"github.com/nyl1001/sqlchemy"
 )

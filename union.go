@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/nyl1001/pkg/errors"
 	"yunion.io/x/log"
-	"yunion.io/x/pkg/errors"
 )
 
 // SUnionQueryField represents a field of a union query

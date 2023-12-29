@@ -20,7 +20,7 @@ import (
 
 	"yunion.io/x/jsonutils"
 
-	"yunion.io/x/pkg/tristate"
+	"github.com/nyl1001/pkg/tristate"
 
 	"github.com/nyl1001/sqlchemy"
 )

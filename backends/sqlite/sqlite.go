@@ -21,9 +21,9 @@ import (
 
 	_ "github.com/mattn/go-sqlite3"
 
-	"yunion.io/x/pkg/errors"
-	"yunion.io/x/pkg/gotypes"
-	"yunion.io/x/pkg/tristate"
+	"github.com/nyl1001/pkg/errors"
+	"github.com/nyl1001/pkg/gotypes"
+	"github.com/nyl1001/pkg/tristate"
 
 	"github.com/nyl1001/sqlchemy"
 )

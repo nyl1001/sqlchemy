@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"yunion.io/x/pkg/util/reflectutils"
+	"github.com/nyl1001/pkg/util/reflectutils"
 )
 
 func (table *STableSpec) structField2ColumnSpec(field *reflectutils.SStructFieldValue) IColumnSpec {

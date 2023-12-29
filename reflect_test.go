@@ -19,11 +19,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/nyl1001/pkg/gotypes"
+	"github.com/nyl1001/pkg/tristate"
+	"github.com/nyl1001/pkg/util/reflectutils"
+	"github.com/nyl1001/pkg/util/timeutils"
 	"yunion.io/x/jsonutils"
-	"yunion.io/x/pkg/gotypes"
-	"yunion.io/x/pkg/tristate"
-	"yunion.io/x/pkg/util/reflectutils"
-	"yunion.io/x/pkg/util/timeutils"
 )
 
 type SerializableType struct {

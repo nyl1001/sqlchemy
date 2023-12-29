@@ -17,8 +17,8 @@ package sqlchemy
 import (
 	"database/sql"
 
+	"github.com/nyl1001/pkg/errors"
 	"yunion.io/x/log"
-	"yunion.io/x/pkg/errors"
 )
 
 // DBName is a type of string for name of database

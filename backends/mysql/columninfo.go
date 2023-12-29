@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/nyl1001/pkg/utils"
 	"yunion.io/x/log"
-	"yunion.io/x/pkg/utils"
 
 	"github.com/nyl1001/sqlchemy"
 )

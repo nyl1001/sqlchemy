@@ -18,9 +18,9 @@ import (
 	"database/sql"
 	"testing"
 
+	"github.com/nyl1001/pkg/tristate"
 	"github.com/nyl1001/sqlchemy"
 	"yunion.io/x/jsonutils"
-	"yunion.io/x/pkg/tristate"
 )
 
 func TestBadColumns(t *testing.T) {

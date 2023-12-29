@@ -19,9 +19,9 @@ import (
 	"reflect"
 	"sort"
 
+	"github.com/nyl1001/pkg/errors"
+	"github.com/nyl1001/pkg/utils"
 	"yunion.io/x/log"
-	"yunion.io/x/pkg/errors"
-	"yunion.io/x/pkg/utils"
 )
 
 // ITableSpec is the interface represents a table

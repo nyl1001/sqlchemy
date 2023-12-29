@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"yunion.io/x/pkg/util/reflectutils"
+	"github.com/nyl1001/pkg/util/reflectutils"
 )
 
 type sNoop struct{}

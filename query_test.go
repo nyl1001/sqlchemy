@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"yunion.io/x/pkg/errors"
+	"github.com/nyl1001/pkg/errors"
 )
 
 func TestQueryString(t *testing.T) {

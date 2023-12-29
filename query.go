@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/nyl1001/pkg/errors"
+	"github.com/nyl1001/pkg/util/reflectutils"
 	"yunion.io/x/log"
-	"yunion.io/x/pkg/errors"
-	"yunion.io/x/pkg/util/reflectutils"
 )
 
 // QueryJoinType is the Join type of SQL query, namely, innerjoin, leftjoin and rightjoin
@@ -49,7 +49,8 @@ type sQueryJoin struct {
 }
 
 // SQuery is a data structure represents a SQL query in the form of
-//     SELECT ... FROM ... JOIN ... ON ... WHERE ... GROUP BY ... ORDER BY ... HAVING ...
+//
+//	SELECT ... FROM ... JOIN ... ON ... WHERE ... GROUP BY ... ORDER BY ... HAVING ...
 type SQuery struct {
 	rawSql   string
 	fields   []IQueryField

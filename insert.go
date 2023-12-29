@@ -20,10 +20,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/nyl1001/pkg/errors"
+	"github.com/nyl1001/pkg/gotypes"
+	"github.com/nyl1001/pkg/util/reflectutils"
 	"yunion.io/x/log"
-	"yunion.io/x/pkg/errors"
-	"yunion.io/x/pkg/gotypes"
-	"yunion.io/x/pkg/util/reflectutils"
 )
 
 // Insert perform a insert operation, the value of the record is store in dt

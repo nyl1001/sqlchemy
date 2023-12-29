@@ -22,11 +22,11 @@ import (
 
 	_ "github.com/ClickHouse/clickhouse-go"
 
-	"yunion.io/x/pkg/errors"
-	"yunion.io/x/pkg/gotypes"
-	"yunion.io/x/pkg/tristate"
-	"yunion.io/x/pkg/util/stringutils"
-	"yunion.io/x/pkg/utils"
+	"github.com/nyl1001/pkg/errors"
+	"github.com/nyl1001/pkg/gotypes"
+	"github.com/nyl1001/pkg/tristate"
+	"github.com/nyl1001/pkg/util/stringutils"
+	"github.com/nyl1001/pkg/utils"
 
 	"github.com/nyl1001/sqlchemy"
 )
