@@ -18,7 +18,7 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/nyl1001/jsonutils"
+	"github.com/nyl1001/pkg/jsonutils"
 
 	"github.com/nyl1001/pkg/tristate"
 

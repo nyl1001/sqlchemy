@@ -12,36 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package jsonutils
-
-// Deprecated
-func (this *JSONString) Value() string {
-	return this.data
-}
-
-// Deprecated
-func (this *JSONInt) Value() int64 {
-	return this.data
-}
-
-// Deprecated
-func (this *JSONFloat) Value() float64 {
-	return this.data
-}
-
-// Deprecated
-func (this *JSONBool) Value() bool {
-	return this.data
-}
-
-// Deprecated
-func (this *JSONDict) Value() map[string]JSONObject {
-	mapJson, _ := this.GetMap()
-	return mapJson
-}
-
-// Deprecated
-func (this *JSONArray) Value() []JSONObject {
-	arrJson, _ := this.GetArray()
-	return arrJson
-}
+package jsonutils // import "github.com/nyl1001/pkg/jsonutils"

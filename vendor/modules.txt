@@ -14,12 +14,14 @@ github.com/cloudflare/golz4
 # github.com/ghodss/yaml v1.0.0
 ## explicit
 github.com/ghodss/yaml
-# github.com/go-sql-driver/mysql v1.6.0
-## explicit; go 1.10
+# github.com/go-sql-driver/mysql v1.7.1
+## explicit; go 1.13
 github.com/go-sql-driver/mysql
 # github.com/golang-plus/errors v1.0.0
 ## explicit
 github.com/golang-plus/errors
+# github.com/golang-plus/testing v1.0.0
+## explicit
 # github.com/golang-plus/uuid v1.0.0
 ## explicit
 github.com/golang-plus/uuid
@@ -42,13 +44,11 @@ github.com/mattn/go-sqlite3
 # github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d
 ## explicit
 github.com/mgutz/ansi
-# github.com/nyl1001/jsonutils v1.0.0
-## explicit; go 1.18
-github.com/nyl1001/jsonutils
-# github.com/nyl1001/pkg v1.0.1
+# github.com/nyl1001/pkg v1.0.2
 ## explicit; go 1.18
 github.com/nyl1001/pkg/errors
 github.com/nyl1001/pkg/gotypes
+github.com/nyl1001/pkg/jsonutils
 github.com/nyl1001/pkg/sortedmap
 github.com/nyl1001/pkg/sortedstring
 github.com/nyl1001/pkg/tristate
@@ -86,21 +86,8 @@ golang.org/x/text/message/catalog
 # gopkg.in/yaml.v2 v2.4.0
 ## explicit; go 1.15
 gopkg.in/yaml.v2
-# yunion.io/x/jsonutils v0.0.0-20220106020632-953b71a4c3a8
-## explicit; go 1.12
-yunion.io/x/jsonutils
 # yunion.io/x/log v1.0.1-0.20230411060016-feb3f46ab361
 ## explicit; go 1.12
 yunion.io/x/log
 yunion.io/x/log/hooks
-# yunion.io/x/pkg v0.0.0-20200814072949-4f1b541857d6
-## explicit
-yunion.io/x/pkg/errors
-yunion.io/x/pkg/gotypes
-yunion.io/x/pkg/sortedmap
-yunion.io/x/pkg/tristate
-yunion.io/x/pkg/util/reflectutils
-yunion.io/x/pkg/util/regutils
-yunion.io/x/pkg/util/timeutils
-yunion.io/x/pkg/utils
 # github.com/go-logr/logr => github.com/go-logr/logr v0.4.0
