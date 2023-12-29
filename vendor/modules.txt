@@ -1,0 +1,106 @@
+# github.com/ClickHouse/clickhouse-go v1.5.4
+## explicit; go 1.12
+github.com/ClickHouse/clickhouse-go
+github.com/ClickHouse/clickhouse-go/lib/binary
+github.com/ClickHouse/clickhouse-go/lib/cityhash102
+github.com/ClickHouse/clickhouse-go/lib/column
+github.com/ClickHouse/clickhouse-go/lib/data
+github.com/ClickHouse/clickhouse-go/lib/lz4
+github.com/ClickHouse/clickhouse-go/lib/protocol
+github.com/ClickHouse/clickhouse-go/lib/types
+# github.com/cloudflare/golz4 v0.0.0-20150217214814-ef862a3cdc58
+## explicit
+github.com/cloudflare/golz4
+# github.com/ghodss/yaml v1.0.0
+## explicit
+github.com/ghodss/yaml
+# github.com/go-sql-driver/mysql v1.6.0
+## explicit; go 1.10
+github.com/go-sql-driver/mysql
+# github.com/golang-plus/errors v1.0.0
+## explicit
+github.com/golang-plus/errors
+# github.com/golang-plus/uuid v1.0.0
+## explicit
+github.com/golang-plus/uuid
+github.com/golang-plus/uuid/internal
+github.com/golang-plus/uuid/internal/dcesecurity
+github.com/golang-plus/uuid/internal/namebased
+github.com/golang-plus/uuid/internal/namebased/md5
+github.com/golang-plus/uuid/internal/namebased/sha1
+github.com/golang-plus/uuid/internal/random
+github.com/golang-plus/uuid/internal/timebased
+# github.com/mattn/go-colorable v0.1.13
+## explicit; go 1.15
+github.com/mattn/go-colorable
+# github.com/mattn/go-isatty v0.0.20
+## explicit; go 1.15
+github.com/mattn/go-isatty
+# github.com/mattn/go-sqlite3 v1.14.12
+## explicit; go 1.12
+github.com/mattn/go-sqlite3
+# github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d
+## explicit
+github.com/mgutz/ansi
+# github.com/nyl1001/jsonutils v1.0.0
+## explicit; go 1.18
+github.com/nyl1001/jsonutils
+# github.com/nyl1001/pkg v1.0.1
+## explicit; go 1.18
+github.com/nyl1001/pkg/errors
+github.com/nyl1001/pkg/gotypes
+github.com/nyl1001/pkg/sortedmap
+github.com/nyl1001/pkg/sortedstring
+github.com/nyl1001/pkg/tristate
+github.com/nyl1001/pkg/util/reflectutils
+github.com/nyl1001/pkg/util/regutils
+github.com/nyl1001/pkg/util/stringutils
+github.com/nyl1001/pkg/util/timeutils
+github.com/nyl1001/pkg/utils
+# github.com/pkg/errors v0.9.1
+## explicit
+github.com/pkg/errors
+# github.com/sirupsen/logrus v1.9.3
+## explicit; go 1.13
+github.com/sirupsen/logrus
+# golang.org/x/crypto v0.17.0
+## explicit; go 1.18
+golang.org/x/crypto/ssh/terminal
+# golang.org/x/sys v0.15.0
+## explicit; go 1.18
+golang.org/x/sys/plan9
+golang.org/x/sys/unix
+golang.org/x/sys/windows
+# golang.org/x/term v0.15.0
+## explicit; go 1.18
+golang.org/x/term
+# golang.org/x/text v0.14.0
+## explicit; go 1.18
+golang.org/x/text/internal
+golang.org/x/text/internal/catmsg
+golang.org/x/text/internal/language
+golang.org/x/text/internal/language/compact
+golang.org/x/text/internal/tag
+golang.org/x/text/language
+golang.org/x/text/message/catalog
+# gopkg.in/yaml.v2 v2.4.0
+## explicit; go 1.15
+gopkg.in/yaml.v2
+# yunion.io/x/jsonutils v0.0.0-20220106020632-953b71a4c3a8
+## explicit; go 1.12
+yunion.io/x/jsonutils
+# yunion.io/x/log v1.0.1-0.20230411060016-feb3f46ab361
+## explicit; go 1.12
+yunion.io/x/log
+yunion.io/x/log/hooks
+# yunion.io/x/pkg v0.0.0-20200814072949-4f1b541857d6
+## explicit
+yunion.io/x/pkg/errors
+yunion.io/x/pkg/gotypes
+yunion.io/x/pkg/sortedmap
+yunion.io/x/pkg/tristate
+yunion.io/x/pkg/util/reflectutils
+yunion.io/x/pkg/util/regutils
+yunion.io/x/pkg/util/timeutils
+yunion.io/x/pkg/utils
+# github.com/go-logr/logr => github.com/go-logr/logr v0.4.0

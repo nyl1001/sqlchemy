@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"strconv"
 
+	"github.com/nyl1001/jsonutils"
 	"github.com/nyl1001/pkg/gotypes"
 	"github.com/nyl1001/pkg/utils"
-	"yunion.io/x/jsonutils"
 )
 
 // IColumnSpec is an interface that represents a column of a table

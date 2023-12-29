@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"yunion.io/x/jsonutils"
+	"github.com/nyl1001/jsonutils"
 )
 
 func TestBaseColumns(t *testing.T) {
